@@ -1,0 +1,23 @@
+
+.tooltip {
+  position: fixed;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  pointer-events: none; 
+}
+
+.preview-thumbnail {
+  width: 160px;
+  height: 90px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.preview-time {
+  font-size: 12px;
+}
+
+/* Add more styles as needed */

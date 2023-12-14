@@ -1,21 +1,12 @@
-import { useState } from "react";
-
-
+import VideoPlayer from "./VideoPlayer";
 
 function App() {
-
-  const [playing, setPlaying] = useState(false);
-
-  const handlePlayPause = () => {
-    setPlaying(!playing);
-  };
   return (
-    <>
-      <div>
-       <h2 className="text-blue-700">Hello world</h2>
-      </div>
-    </>
-  )
+    <div className="text-center space-y-8">
+      <h1>Custom Video Player</h1>
+      <VideoPlayer />
+    </div>
+  );
 }
 
-export default App
+export default App;
